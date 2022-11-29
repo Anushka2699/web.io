@@ -1,0 +1,92 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.content {
+    clear: right;
+    padding: 10px;
+    font-size: 1em;
+}
+
+section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+}
+
+.first, .sec, .thi  {
+    position: relative;
+    background-color: gray;
+    border: 3.5px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    font-size: 500;
+    
+}
+
+.chicken, .Beef, .Sushi {
+    background-color: rosybrown;
+    border: 3px solid black;
+    text-align: center;
+    width: 100px;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    float: right;
+    margin-top: -3px;
+    margin-right: -3px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.Beef {
+    background-color: red;
+
+}
+
+.Sushi {
+    background-color: yellow;
+}
+
+
+@media (min-width:992px) {
+    .column-lg-3 {
+        width: 33.33%;
+        float:left;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .column-md-6 {
+        width:50%;
+        float:left;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .column-md-12  {
+        width:100%;
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width:767px) {
+    .column-sm-12 {
+        width:100%;
+        float:left;
+    }
+}
